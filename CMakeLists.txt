@@ -4,4 +4,4 @@ project(FiniteStateMachine)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(FiniteStateMachine
-        src/main.cpp)
+        src/main.cpp src/DFA/deterministicFiniteAutomaton.h src/DFA/deterministicFiniteAutomaton.cpp)
